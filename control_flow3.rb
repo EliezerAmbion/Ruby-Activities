@@ -1,7 +1,7 @@
-puts "enter a word"
+puts "guess a word"
 word = gets.chomp().downcase
 
 while word != 'stop'
-  puts "enter a word again"
+  puts "guess again"
   word = gets.chomp().downcase
 end
