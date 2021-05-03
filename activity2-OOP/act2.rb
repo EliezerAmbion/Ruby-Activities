@@ -6,6 +6,10 @@ class Profile
   attr_reader :address
 
   def initialize(full_name, age, address, work)
+    @full_name = full_name
+    @age = age,
+    @address = address
+    @work = work
   end
 end
 
@@ -21,4 +25,3 @@ puts my_profile.full_name
 puts my_profile.age
 puts my_profile.work
 puts my_profile.address
-
