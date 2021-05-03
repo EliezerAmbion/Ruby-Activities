@@ -1,4 +1,5 @@
 # create your own object
+
 class Vehicle
   def initialize(brand, wheels, color)
     @brand = brand
@@ -12,5 +13,5 @@ class Vehicle
     
 end
 
-Car1 = Vehicle.new('Audi', 4, 'black')
-puts Car1.speed
+car1 = Vehicle.new('Audi', 4, 'black')
+puts car1.speed
