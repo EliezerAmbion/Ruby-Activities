@@ -8,13 +8,13 @@ Write a prepare method for your Cupcake and Banana Cake class that prints
 
 class Confection
   def prepare
-  "Baking at 350 degrees for 25 minutes. "
+    return "Baking at 350 degrees for 25 minutes. "
   end
 end
 
 class Cupcake < Confection
   def prepare
-    super + "Applying frosting"
+    return super + "Applying frosting"
   end
 end
 
