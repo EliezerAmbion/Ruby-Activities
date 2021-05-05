@@ -6,7 +6,7 @@ class Person
     @year_today = year_today
   end
 
-  def future_age(year)
+  def know_future_age(year)
     return age_calculator + (year - @year_today)
   end
 
@@ -17,4 +17,4 @@ class Person
 end
 
 person1 = Person.new("Eli", 1990, 2021)
-p person1.future_age(2022)
+p person1.know_future_age(2026)

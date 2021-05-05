@@ -31,21 +31,19 @@ class User
 end
 
 
+include AdminPermisson
 class Admin < User
   def admin_login
     login
   end
-
-  include AdminPermisson
 end
 
 
+include BuyerPermission
 class Buyer < User
   def buyer_login
     login
   end
-
-  include BuyerPermission
 end
 
 
