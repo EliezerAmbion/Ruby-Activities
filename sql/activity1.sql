@@ -8,12 +8,12 @@ create TABLE students(
 );
 
 INSERT into students(id, first_name, last_name, age, location)
-values(1, 'Juan', 'Cruz', 18, 'Manila');
-values(2, 'Anne', 'Wall', 20, 'Manila');
-values(3, 'Theresa', 'Joseph', 21, 'Manila');
-values(4, 'Issac', 'Gray', 19, 'Laguna');
-values(5, 'Zack', 'Matthews', 22, 'Marikina');
-values(6, 'Finn', 'Lam', 25, 'Manila');
+values(1, 'Juan', 'Cruz', 18, 'Manila'),
+(2, 'Anne', 'Wall', 20, 'Manila'),
+(3, 'Theresa', 'Joseph', 21, 'Manila'),
+(4, 'Issac', 'Gray', 19, 'Laguna'),
+(5, 'Zack', 'Matthews', 22, 'Marikina'),
+(6, 'Finn', 'Lam', 25, 'Manila');
 
 
 UPDATE students 
@@ -21,4 +21,4 @@ UPDATE students
 	WHERE id = 1;
 	
 
-DELETE from students where id = 1
+DELETE from students where id = 6
