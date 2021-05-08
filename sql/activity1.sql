@@ -21,4 +21,16 @@ UPDATE students
 	WHERE id = 1;
 	
 
-DELETE from students where id = 6
+DELETE from students where id = 6;
+
+# activity 2
+SELECT COUNT(id) FROM students;
+
+SELECT * FROM students
+WHERE location IN ('Manila');
+
+SELECT AVG(age) AS AveAge FROM students;
+
+SELECT age
+FROM students
+ORDER BY age ASC;
