@@ -1,7 +1,7 @@
 =begin
 open/close means it should be open for extension but closed for modification
 
-Example we have the class Payslip, we will add an address to that class,
+Example we have the parent class Payslip, if you add an address parameter to that class,
 it will be hard to add something without refactoring.
 
 NOTE: the essence of this is to eliminate refactoring
