@@ -17,8 +17,8 @@ values(1, 'Juan', 'Cruz', 18, 'Manila'),
 
 
 UPDATE students 
-	SET first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan'
-	WHERE id = 1;
+SET first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan'
+WHERE id = 1;
 	
 
 DELETE from students where id = 6;

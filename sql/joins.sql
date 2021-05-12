@@ -2,7 +2,7 @@ create table classrooms(
   id INTEGER,
   student_id INTEGER,
   section varchar  
-)
+);
 
 INSERT into classrooms(id, student_id, section)
 values(1, 1, 'A'),
